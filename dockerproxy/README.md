@@ -30,7 +30,7 @@ yum -y install wget curl
 # ubuntu
 apt -y install wget curl
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/kubesre/docker-registry-mirrors/main/dockerproxy/install/DockerProxy_Install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/zzk1996/docker-registry-mirrors/main/dockerproxy/install/DockerProxy_Install.sh)"
 ```
 ## 使用docker compose部署(自动配置https证书)
 <details>
